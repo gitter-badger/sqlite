@@ -1,0 +1,5 @@
+vendor
+composer.lock
+cache
+tests/coverage
+tests/cache

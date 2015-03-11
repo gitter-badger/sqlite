@@ -1,0 +1,20 @@
+# see http://about.travis-ci.org/docs/user/languages/php/ for more hints
+language: php
+
+php:
+  - 5.6
+
+addons:
+  code_climate:
+    repo_token: 57348b579fb00d3fafafdba620b93177c7924cae9b66314b251f1e65263c6b48
+
+before_script:
+  - composer selfupdate
+  - composer install
+
+script:
+  - vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+
+after_script:
+  - php vendor/bin/test-reporter --stdout > cc.json
+  - 'curl -X POST -d @cc.json -H "Content-Type: application/json" https://codeclimate.com/test_reports'
