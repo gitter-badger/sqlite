@@ -4,3 +4,6 @@
 [![Latest Version](https://img.shields.io/github/tag/concat/sqlite.svg?style=flat&label=release)](https://github.com/concat/sqlite/tags)
 [![Test Coverage](https://codeclimate.com/github/concat/sqlite/badges/coverage.svg?style=flat)](https://codeclimate.com/github/concat/sqlite)
 [![Code Climate](https://codeclimate.com/github/concat/sqlite/badges/gpa.svg?style=flat)](https://codeclimate.com/github/concat/sqlite)
+
+
+[![Join the chat at https://gitter.im/concat/sqlite](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/concat/sqlite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
